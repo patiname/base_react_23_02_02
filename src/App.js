@@ -3,6 +3,13 @@ import { Text, Text2 } from "./components/ex01/Text";
 import { DestEx } from "./components/ex02/DestEx";
 import { MapEx } from "./components/ex02/MapEx";
 import { PropsEx } from "./components/ex02/PropsEx";
+import { BaseStyle } from "./components/ex03/BaseStyle";
+import { Ex01 } from "./components/ex03/Ex01";
+import { GlobalStyeld } from "./components/ex03/GlobalStyled";
+import { StyledEx } from "./components/ex03/StyledEx";
+import { StyledEx02 } from "./components/ex03/StyledEx02";
+import { EventEx } from "./components/ex04/EventEx";
+import { EventEx02 } from "./components/ex04/EventEx02";
 
 function App() {
   return (
@@ -22,7 +29,16 @@ function App() {
       <PropsEx name="sideway" age="20" lan="자바스크립트" /> */}
 
       {/* <DestEx /> */}
-      <MapEx />
+      {/* <MapEx /> */}
+
+      {/* <BaseStyle /> */}
+      <GlobalStyeld />
+      {/* <StyledEx /> */}
+      {/* <Ex01 /> */}
+      {/* <StyledEx02 /> */}
+
+      {/* <EventEx /> */}
+      <EventEx02 />
     </>
   );
 }
