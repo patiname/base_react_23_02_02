@@ -8,8 +8,10 @@ import { Ex01 } from "./components/ex03/Ex01";
 import { GlobalStyeld } from "./components/ex03/GlobalStyled";
 import { StyledEx } from "./components/ex03/StyledEx";
 import { StyledEx02 } from "./components/ex03/StyledEx02";
+import { ClickEx } from "./components/ex04/ClickEx";
 import { EventEx } from "./components/ex04/EventEx";
 import { EventEx02 } from "./components/ex04/EventEx02";
+import { PopEx } from "./components/ex04/PopEx";
 
 function App() {
   return (
@@ -38,7 +40,9 @@ function App() {
       {/* <StyledEx02 /> */}
 
       {/* <EventEx /> */}
-      <EventEx02 />
+      {/* <EventEx02 /> */}
+      {/* <ClickEx /> */}
+      <PopEx />
     </>
   );
 }
