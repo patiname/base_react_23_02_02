@@ -12,6 +12,7 @@ import { ClickEx } from "./components/ex04/ClickEx";
 import { EventEx } from "./components/ex04/EventEx";
 import { EventEx02 } from "./components/ex04/EventEx02";
 import { PopEx } from "./components/ex04/PopEx";
+import { RouterEx } from "./components/ex05/RouterEx";
 
 function App() {
   return (
@@ -42,7 +43,9 @@ function App() {
       {/* <EventEx /> */}
       {/* <EventEx02 /> */}
       {/* <ClickEx /> */}
-      <PopEx />
+      {/* <PopEx /> */}
+
+      <RouterEx />
     </>
   );
 }
