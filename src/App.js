@@ -14,6 +14,7 @@ import { EventEx02 } from "./components/ex04/EventEx02";
 import { PopEx } from "./components/ex04/PopEx";
 import { RouterEx } from "./components/ex05/RouterEx";
 import { Router } from "./components/ex06/Router";
+import { LoginExRouter } from "./components/ex07/Router";
 
 function App() {
   return (
@@ -47,7 +48,9 @@ function App() {
       {/* <PopEx /> */}
 
       {/* <RouterEx /> */}
-      <Router />
+      {/* <Router /> */}
+
+      <LoginExRouter />
     </>
   );
 }
