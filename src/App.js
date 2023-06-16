@@ -15,6 +15,8 @@ import { PopEx } from "./components/ex04/PopEx";
 import { RouterEx } from "./components/ex05/RouterEx";
 import { Router } from "./components/ex06/Router";
 import { LoginExRouter } from "./components/ex07/Router";
+import { CleanUpEx } from "./components/ex08_useEffect/CleanUpEx";
+import { UseEffectEx } from "./components/ex08_useEffect/UseEffectEx";
 
 function App() {
   return (
@@ -37,7 +39,7 @@ function App() {
       {/* <MapEx /> */}
 
       {/* <BaseStyle /> */}
-      <GlobalStyeld />
+      {/* <GlobalStyeld /> */}
       {/* <StyledEx /> */}
       {/* <Ex01 /> */}
       {/* <StyledEx02 /> */}
@@ -50,7 +52,10 @@ function App() {
       {/* <RouterEx /> */}
       {/* <Router /> */}
 
-      <LoginExRouter />
+      {/* <LoginExRouter /> */}
+
+      {/* <UseEffectEx /> */}
+      <CleanUpEx />
     </>
   );
 }
